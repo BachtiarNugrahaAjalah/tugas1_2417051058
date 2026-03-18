@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c8d9e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #2f4256;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.head-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.list-link{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.button-link{
+    display: block;
+    color: white;
+    background-color: #567c8d;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.button-link:hover{
+    background-color: #c8d9e6;
+    transform: scaleY(1.03);
+    transform: scaleX(0.95);
+    color: #2f4256;
+    transition: all 0.6s ease-in-out;
+    box-shadow: 0px 7px 19px rgba(0,0,0,0.5);  
+}
+
+.button-link-yt{
+    display: block;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.button-link-yt:hover{
+    background-color: #ff6868;
+    transform: scaleX(1.15);
+    transform: scaleY(0.95);
+    transition: all 0.6s ease-in-out;
+    box-shadow: 0px 7px 19px rgba(0,0,0,0.5);
+}
+
+.video{
+    margin-bottom: 10px;
+}
+
+.video-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.video-container{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+}
+
+.video-description{
+    font-size: 0.8rem;
+    margin-top: 15px;
+}
+
+.foot-container{
+    margin-top: 40px;
+}
+
+.foot-text{
+    font-size: 0.6rem;
+}
+
+.profile-name{
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.profile-description{
+    font-size: 0.8rem;
+}
+
+#profile-avatar{
+    border-radius: 100%;
+    width: 100px;
+}
+
