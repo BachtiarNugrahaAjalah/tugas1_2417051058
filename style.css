@@ -120,7 +120,9 @@ body{
 }
 
 #profile-avatar{
+    object-fit: fill;
     border-radius: 100%;
     width: 100px;
+    border: 5px solid #fff;
 }
 
